@@ -22,14 +22,14 @@ Considering that you already has Docker installed
 
     $ make docker-container
 
-#### Install dependencies
+#### Install dependencies on container
 
     $ make setup
 
-#### Run migrate on Docker
+#### Run migrate on container
 
     $ make docker-migrate
 	
-#### Run app on Docker
+#### Run project on container
 
     $ make docker-start
