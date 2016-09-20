@@ -13,7 +13,7 @@ RUN apt-get install -y python3-dev libmysqlclient-dev
 ENV DB_HOST='my-mysql'
 ENV DB_USER='root'
 ENV DB_PASS='root'
-ENV DB_NAME='django_example'
+ENV DB_NAME='django_init'
 ENV DEBUG='True'
 WORKDIR /home/application/django-init
 
