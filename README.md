@@ -2,7 +2,7 @@
 
 Repository to describe how to begin a Django project
 
-## Pré-requisitos
+## Requirements
 
 * Python 3
 * virtualenv
@@ -14,7 +14,7 @@ Repository to describe how to begin a Django project
 
 #### Install
 
-Considerando que você já tenha instalado o Docker
+Considering that you already has Docker installed
 
     $ make docker-build
 	
