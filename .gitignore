@@ -1,0 +1,5 @@
+venv
+*.sqlite3
+__pycache__
+static/node_modules
+.DS_Store
