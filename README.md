@@ -22,7 +22,7 @@ Considering that you already has Docker installed
 
     $ make docker-container
 
-### Install dependencies
+#### Install dependencies
 
     $ make setup
 
