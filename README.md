@@ -22,6 +22,10 @@ Considering that you already has Docker installed
 
     $ make docker-container
 
+### Install dependencies
+
+    $ make setup
+
 #### Run migrate on Docker
 
     $ make docker-migrate
