@@ -24,7 +24,7 @@ Considering that you already has Docker installed
 
 #### Install dependencies on container
 
-    $ make setup
+    $ make docker-setup
 
 #### Run migrate on container
 

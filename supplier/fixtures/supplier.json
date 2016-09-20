@@ -1,0 +1,1 @@
+[{"model": "supplier.supplier", "pk": 1, "fields": {"name": "Devwiki Blog", "phone": "2121212121", "email": "contato@devwikiblog.com", "address": "Rio de Janeiro"}}, {"model": "supplier.supplier", "pk": 2, "fields": {"name": "Google", "phone": "", "email": "email@google.com", "address": "Montain View"}}]

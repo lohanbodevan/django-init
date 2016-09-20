@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Django Init</title>
+    </head>
+    <body>
+        <p>Fornecedores cadastrados</p>
+        <ul>
+            {% for item in supplier_list %}
+            <li>
+                <b>Nome:</b> {{ item.name }} - <b>Telefone:</b> {{ item.phone }}
+            </li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
