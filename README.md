@@ -1,4 +1,4 @@
-# Django Init
+# Django Init <a href="https://travis-ci.org/lohanbodevan/django-init"><img alt="Travis Status" src="https://travis-ci.org/lohanbodevan/django-init.svg?branch=master"></a>
 
 Repository to describe how to begin a Django project
 
