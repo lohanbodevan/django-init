@@ -33,3 +33,7 @@ Considering that you already has Docker installed
 #### Run project on container
 
     $ make docker-start
+
+#### Run tests
+
+    $ make docker-test

@@ -74,14 +74,22 @@ WSGI_APPLICATION = 'django_init.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
+# Commented just to work in travis-ci
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': os.getenv('DB_NAME', 'django_init'),
+#        'USER': os.getenv('DB_USER', 'root'),
+#        'PASSWORD': os.getenv('DB_PASS', 'root'),
+#        'HOST': os.getenv('DB_HOST', 'my-mysql'),
+#        'PORT': '3306'
+#    }
+#}
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.getenv('DB_NAME', 'django_init'),
-        'USER': os.getenv('DB_USER', 'root'),
-        'PASSWORD': os.getenv('DB_PASS', 'root'),
-        'HOST': os.getenv('DB_HOST', 'my-mysql'),
-        'PORT': '3306'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 

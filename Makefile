@@ -9,6 +9,9 @@ migrate: # Apply migrations
 
 setup: # Install dependencies
 	${PIP_CMD} install -r requirements.txt
+
+test: # Run tests
+	${PYTHON_CMD} manage.py test
 	
 docker-build: # Create docker image
 	docker build -t django-init:0.1 .
@@ -24,3 +27,6 @@ docker-migrate: # Run migrations on container
 
 docker-setup: # Install dependencies on container
 	docker exec -it django-init make setup
+
+docker-test: # Run tests on container
+	docker exec -it django-init make test
